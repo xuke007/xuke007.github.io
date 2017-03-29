@@ -1,6 +1,25 @@
 #home_content{
 	
 }
+#home_content h1{ 
+   text-align: center;
+   color: #fcf8ff;
+}
+#home_content #home_bg{
+	width:100%;
+}
+#home_content h2{
+	text-align: right;
+    	margin-right: 10%;
+}
+#home_content h2 a{ 
+	padding: .5em 2em;
+	color: #7dd0ec;
+    	text-decoration: none;
+}
+#home_content h2 a:hover{ 
+	background-color: rebeccapurple;	
+}
 * {
 	box-sizing: border-box;
 	font-family: Roboto, "Segeo UI", "Helvetica Neue", Tahoma, Arial, sans-serif, "PingFang SC", "Hiragino Sans GB", "Source Han Sans", "Microsoft Yahei", "STHeiti", "SimSun";

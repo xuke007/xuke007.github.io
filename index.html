@@ -7,22 +7,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <meta name="description" content="Web前端及其相关技术">
-    <meta name="keywords" content="xuke,前端,html,css,javascript,github">
+    <meta name="keywords" content="xuke,前端,html,xk,javascript,github">
     <title>主页</title>
     <link rel="shortcut icon" href="img/favicon.ico" />
     <link rel="stylesheet" href="css/index.css" />
-    <!--<link rel="stylesheet" href="css/about.css" />-->
+    <link rel="stylesheet" href="css/leave.css" />
 </head>
 <body>
-
-<div id="home_content">
-    <article>
-        <h1>主页</h1>
-        <img src="img/home.png" alt="a good pic. and i copy it.">
-    </article>
-
+<div id="container">
+    <div id="leafContainer"></div>
+    <div id="home_content">
+        <article>
+            <h1>主页</h1>
+            <h2>
+                <a href="／js"><span>js相关</span></a>
+                <a href="/other"><span>其它</span></a>
+                <a href="/about"><span>关于</span></a>
+            </h2>
+            <img id="home_bg" src="img/home.png" alt="a good pic. and i borrow it.">
+        </article>
+    </div>
 </div>
 
+
 <script src="js/index.js"></script>
+<script src="js/leave.js"></script>
 </body>
 </html>
